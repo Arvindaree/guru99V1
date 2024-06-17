@@ -1,0 +1,10 @@
+com\guru99V1\pageObjects\LoginPage.class
+com\guru99V1\testCases\BaseClass.class
+com\guru99V1\utilities\XL_Util.class
+com\guru99V1\testCases\TC_002_AddCustomer.class
+com\guru99V1\testCases\TC_001_LoginDDT.class
+com\guru99V1\utilities\Reporting.class
+com\guru99V1\pageObjects\ManagersPage.class
+com\guru99V1\utilities\ReadConfig.class
+com\guru99V1\pageObjects\AddCustomerPage.class
+com\guru99V1\testCases\TC_001_LoginTest.class

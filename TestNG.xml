@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="guru99V1">
+	<listeners>
+		<listener class-name="com.guru99V1.utilities.Reporting"/>
+	</listeners>
+	<test name="bankingApp test">\
+	<parameters>
+		<parameter name="brow" value="chrome"/>
+	</parameters>
+		<classes>
+			<class name="com.guru99V1.testCases.TC_001_LoginTest"/>
+			<!-- <class name="com.guru99V1.testCases.TC_001_LoginDDT"/> -->
+			<!-- <class name="com.guru99V1.testCases.TC_002_AddCustomer"/> -->
+		</classes>
+	</test>
+</suite>

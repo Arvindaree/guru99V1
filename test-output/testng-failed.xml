@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [guru99V1]">
+  <listeners>
+    <listener class-name="com.guru99V1.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="bankingApp test(failed)">
+    <parameter name="brow" value="chrome"/>
+    <classes>
+      <class name="com.guru99V1.testCases.TC_002_AddCustomer">
+        <methods>
+          <include name="addNewCust"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.guru99V1.testCases.TC_002_AddCustomer -->
+    </classes>
+  </test> <!-- bankingApp test(failed) -->
+</suite> <!-- Failed suite [guru99V1] -->
